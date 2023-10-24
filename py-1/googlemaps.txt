@@ -1,0 +1,49 @@
+Enter location: brasil
+Retrieving http://py4e-data.dr-chuck.net/xml?address=brasil&key=42
+Retrieved 986 characters
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Brazil</formatted_address>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-14.2350040</lat>
+    <lng>-51.9252800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-34.0891000</lat>
+     <lng>-73.9828169</lng>
+    </southwest>
+    <northeast>
+     <lat>5.2717863</lat>
+     <lng>-28.6505430</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-34.0891000</lat>
+     <lng>-73.9828169</lng>
+    </southwest>
+    <northeast>
+     <lat>5.2717863</lat>
+     <lng>-28.6505430</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJzyjM68dZnAARYz4p8gYVWik</place_id>
+ </result>
+</GeocodeResponse>
+
+lat -14.2350040 lng -51.9252800
+Brazil
