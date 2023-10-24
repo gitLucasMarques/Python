@@ -1,0 +1,10 @@
+fname1 = input('Arquivo1: ')
+fhand1 = open(fname1)
+
+fname2 = input('Arquivo de destino: ')
+fhand2 = open(fname2,'w')
+
+for lines1 in fhand1:
+  fhand2.write(lines1)
+
+fhand2.close()
