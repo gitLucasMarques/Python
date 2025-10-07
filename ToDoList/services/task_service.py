@@ -52,7 +52,6 @@ async def delete_task_buy_id(task_id: str):
     try:
         sucess = await repository.delete_task(task_id)
     except Exception as e:
-        # Bubble up unexpected repository errors as 500 so caller can see details
         raise HTTPException(status_code=500, detail=f"Error deleting task: {e}")
 
     if not sucess:
